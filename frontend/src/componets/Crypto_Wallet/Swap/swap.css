@@ -1,0 +1,182 @@
+.swapcrypto_walletbox1{
+    background-color: #1B88CA0D;
+    width: 100%;
+    height: 100%;
+}
+.swapbox_1{
+    background-color: white;
+    padding:35px 30px ;
+}
+.swap_minibox_1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.swap_minibox_11{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.swapbox_para11{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.86px;
+    color:  #1B88CA;
+    padding-right: 10px;
+}
+.swapbox_heading1{
+    font-family: "Manrope", sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+    letter-spacing: -0.0127em;
+    text-align: left;
+    margin: 0;
+}
+.swapbox1_input{
+    width: 100%;
+    height: 56px;
+    top: 30px;
+    padding: 18.5px 17px 18.5px 17px;
+    gap: 0px;
+    border-radius: 8px ;
+    border: 1px;
+    border: 1px solid #1B88CA66
+}
+.swapcard_dropdown_1{
+    width: 100% !important;
+    height: 50px !important;
+    border-radius: 12px !important;
+    border: 1px solid #1B88CA1A !important;
+    background-color: #1B88CA0D;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1B88CA;
+}
+.swapcard_dropdown_1:active{
+    border: none;
+}
+.swapcard_dropdown_1{
+    background-size: 15px 10px;
+    background-image: url(../../../asset/images/a33.png);
+}
+.swapcard_dropdown_1 option{
+    color: #1B88CA;
+}
+.swapbox_para1{
+    font-family: "Manrope", sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.86px;
+    text-align: left;
+}
+.swapbox1_input::placeholder{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+    color:  #080812B2;
+}
+.swapbox3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.swap_wallet_tabelbox_btn{
+    margin: 5px;
+    width: 99px;
+    height: 44px;
+    padding: 5px 16px 5px 16px;
+    border-radius: 50px;
+    opacity: 0px;
+    border: 1px solid #1B88CA66;
+    background: #1B88CA0D;
+    color: #1B88CA;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+.swapbox4_para1{
+    font-family: "Manrope", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+    color:  #080812B2;
+    padding:20px 15px;
+}
+.swapboximg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 250px;
+}
+.swapbox_btn{
+    text-align: end;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.swapbox_btn button{
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    max-width: 250px;
+    padding: 12px 10px;
+    color: white;
+    background: #1B88CA !important;
+    border-radius: 6px;
+    border:none !important;
+    box-shadow: none !important;
+}
+.swapbox_btn p{
+    color:  #1B88CA;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+.swapbox7{
+    /* display: none; */
+    margin: 3px 30px;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.swapbox7_heading1{
+    font-family: "Manrope", sans-serif;
+    color: c=black;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.0127em;
+    text-align: left;
+    padding: 20px 30px;
+}
+.swapcardminibox_2 {
+    /* width: 20% !important; */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1400px) {
+    .swapcardminibox_2 {
+        width: 97%;
+    }
+    .swapbox_btn {
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .swapbox_btn button {
+        max-width: 100%;
+    }
+    .swapbox_btn p {
+        text-align: center;
+    }
+
+}

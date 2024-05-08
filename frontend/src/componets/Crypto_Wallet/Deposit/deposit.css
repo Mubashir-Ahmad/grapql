@@ -1,0 +1,94 @@
+.depositbox1{
+    background-color: #1B88CA0D;
+    width: 100%;
+    height: 100%;
+}
+.depositbox2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.depositcardminibox_2 {
+    width: 49% !important;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.swapcard_dropdown_1 {
+    background-size: 15px 10px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAICAYAAAAiJnXPAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB8SURBVHgBdZDBEYAgDAQTaMInbfjTUizDCizDUnjahk+bQMzNwEyEcB/I3S0w8HRcwbM/U07bs883GWo7DoP4i6wR4QCIpYMuOdCZCDeEFlRAQAdd+FxDJ6EMABCu8DXwilefz/pUDRa7A36QAZIFdJAGsbeAoQBaP1n1ATmIVMSoOotIAAAAAElFTkSuQmCC);
+}
+.depositcard_dropdown_1 {
+    width: 100% !important;
+    height: 50px !important;
+    border-radius: 12px !important;
+    border: 1px solid #1B88CA66 !important;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1B88CA;
+}
+.depsot_cardheading1{
+    font-family: "Manrope", sans-serif;
+        color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.59px;
+    letter-spacing: -0.0127em;
+    text-align: left;
+}
+.depsitbox3{
+    background-color: white;
+    width: 95%;
+    border-radius: 12px;
+    margin: 10px auto;
+    padding: 20px 25px;
+}
+.depositbox_btn{
+    text-align: end;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+.depositbox_btn button{
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    max-width: 250px;
+    padding: 12px 10px;
+    color: white;
+    background: #1B88CA !important;
+    border-radius: 6px;
+    border:none !important;
+    box-shadow: none !important;
+}
+.depositcard_input {
+    background-color: red;
+    border: none;
+    margin: 27px 10px 0px;
+}
+.depositcard_span{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    text-align: left;
+  color: #080812B2;
+}
+@media screen and (max-width: 1400px) {
+    .depositcardminibox_2 {
+        width: 100% !important;
+    }
+    .depsitbox3 {
+        background-color: white;
+        width: 100%;}
+        
+}
+@media screen and (max-width: 1400px) {
+
+    .depositbox_btn button {
+        max-width: 100%;
+    }
+}

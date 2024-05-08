@@ -1,0 +1,68 @@
+.cardBalanceminibox_btnn{
+    width: 170px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5.52px;
+    border: 0.69px;
+    border: 0.69px solid #1B88CA
+}
+.balanceactivity_box2{
+    width: 100%;
+}
+.balancebox_02 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1% auto;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0px 35px 50px 35px;
+}
+.balancebox_03{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+.balanceactivity_box7{
+background-color: white;
+width: 100%;
+border-radius: 12px;
+}
+.balancebox_2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1% auto;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 25px 35px;
+}
+@media screen and (max-width:776px) {
+    .balanceactivity_box {
+        border-radius: 12px;
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        padding: 15px 10px;
+    }
+    .balancebox_03 {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 21.333333%;
+    }
+}

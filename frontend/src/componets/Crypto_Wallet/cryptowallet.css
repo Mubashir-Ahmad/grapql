@@ -1,0 +1,40 @@
+.crypto_walletbox1{
+        background-color: #1B88CA0D;
+        width: 100%;
+        height: 100vh;
+}.crypto_wallet_tabelbox_1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    column-gap: 10px;
+}
+.crypto_wallet_para1{
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.12px;
+    text-align: left;
+    min-width: 150px;
+}
+.crypto_walletbox2{
+    background-color: white;
+    padding: 35px;
+    margin: auto;
+    width: 97%;
+    border-radius: 12px;
+}
+.crypto_wallet_tabelbox_btn{
+    width: 99px;
+    height: 44px;
+    padding: 5px 16px 5px 16px;
+    gap: 10px;
+    border-radius: 50px ;
+    opacity: 0px;
+    border: 1px solid #1B88CA66;
+    background: #1B88CA0D;
+    color:  #1B88CA;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}

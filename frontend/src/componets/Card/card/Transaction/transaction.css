@@ -1,0 +1,134 @@
+.transactioncard_box{
+    background-color: #1B88CA0D;
+    width: 100%;
+    height: 100vh;
+}
+.transactioncard_dropdown_1{
+    width: 100% !important;
+    height: 50px !important;
+    border-radius: 12px !important;
+    border: 1px solid #1B88CA1A !important;
+    background-color: #1B88CA0D;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1B88CA;
+}
+.transactioncard_dropdown_1:active{
+    border: none;
+}
+.transactioncard_dropdown_1{
+    background-size: 15px 10px;
+    background-image: url(../../../../asset/images/a33.png);
+}
+.transactioncard_dropdown_1 option{
+    color: #1B88CA;
+}
+.transactioncard_dropdown_2{
+    width: 220px !important;
+    height: 50px !important;
+    border-radius: 12px !important;
+    border: 1px solid #1B88CA1A !important;
+    background-color: #1B88CA0D;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1B88CA;
+}
+.transactioncard_dropdown_2:active{
+    border: none;
+}
+.transactioncard_dropdown_2{
+    background-size: 25px 25px;
+   /* background-size: 0; */
+    background-image: url(../../../../asset/images/a34.png);
+}
+.transactioncard_dropdown_2 option{
+    color: #1B88CA;
+}
+.transaction_card_1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1% auto;
+    background-color: white;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+.transaction_cardbox_2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding: 8px 20px 34px 20px;
+    border-radius: 12px;
+}
+.transaction_card_2{
+    display: flex;
+    justify-content: end;
+   width: 100%;
+}
+.transactioncardminibox_3{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    width: 33%;
+}
+.transactioncardminibox_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 250px ;
+}
+@media screen and (max-width:1500px) {
+    .transaction_card_1 {
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width:1024px) {
+    .cardbox_input1 {
+        width: 100%;
+    }
+    .transaction_card_1 {
+        padding: 15px 15px;
+    }
+    .transactioncardminibox_2 {
+        width: 100% !important;
+        flex-wrap: wrap;
+        max-width: 550px;
+    }
+    .transaction_card_2 {
+        justify-content: center;
+    }
+    .transactioncard_dropdown_1 {
+        width: 100% !important;
+    }
+    .transactioncardminibox_3 {
+        width: 60%;
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+}
+@media screen and (max-width:500px) {
+    .transaction_card_2 {
+        justify-content: center;
+    }
+    .transactioncardminibox_3 {
+        width: 90%;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .transactioncard_dropdown_1 {
+        width: 100% !important;
+    }
+}
+
+/* @media screen and (max-width:776px) {
+
+ 
+} */

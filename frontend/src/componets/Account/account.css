@@ -1,0 +1,36 @@
+.account_box1{
+    background-color: #1B88CA0D;
+    width: 100%;
+    height: 100%;
+}
+.account_link{
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.account_linkbox {
+    width: 100%;
+    gap: 53px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.actives {
+    color:#1B88CA;
+    border-bottom: 2px solid #1B88CA;
+}
+.account_link:not(.actives) {
+    color: #9F9F9F;
+  }
+  @media screen and (max-width:996px) {
+    .account_linkbox {
+        width: 30%;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .account_linkbox {
+        width: 80%;
+    }
+  }
